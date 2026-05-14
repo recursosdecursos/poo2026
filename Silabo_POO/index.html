@@ -472,10 +472,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#8-modelo-de-referencia-del-proyecto" class="md-nav__link">
+  <a href="#8-modelo-de-referencia-del-proyecto-integrador-final" class="md-nav__link">
     <span class="md-ellipsis">
       
-        8. Modelo de referencia del proyecto
+        8. Modelo de referencia del proyecto integrador final
       
     </span>
   </a>
@@ -1420,10 +1420,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#8-modelo-de-referencia-del-proyecto" class="md-nav__link">
+  <a href="#8-modelo-de-referencia-del-proyecto-integrador-final" class="md-nav__link">
     <span class="md-ellipsis">
       
-        8. Modelo de referencia del proyecto
+        8. Modelo de referencia del proyecto integrador final
       
     </span>
   </a>
@@ -1552,7 +1552,8 @@
 <li>JDBC para acceso a datos.</li>
 <li>SQLite como base de datos local.</li>
 </ol>
-<h2 id="8-modelo-de-referencia-del-proyecto">8. Modelo de referencia del proyecto<a class="headerlink" href="#8-modelo-de-referencia-del-proyecto" title="Permanent link">&para;</a></h2>
+<h2 id="8-modelo-de-referencia-del-proyecto-integrador-final">8. Modelo de referencia del proyecto integrador final<a class="headerlink" href="#8-modelo-de-referencia-del-proyecto-integrador-final" title="Permanent link">&para;</a></h2>
+<p>El siguiente diagrama no corresponde a la sesión 1. Se presenta como referencia del producto final del curso, una vez que el estudiante haya avanzado por modelado básico, encapsulamiento, colecciones, herencia, persistencia e interfaz gráfica.</p>
 <pre class="mermaid"><code>classDiagram
     class Venta {
         -String cliente
@@ -1575,6 +1576,7 @@
 
     Venta "1" *-- "*" DetalleVenta
     DetalleVenta "*" --&gt; "1" Producto</code></pre>
+<p>Durante las primeras sesiones, el modelado debe comenzar con clases simples y cercanas, por ejemplo <code>Producto</code> con <code>Categoria</code>, o bien <code>Cliente</code>, <code>Proveedor</code> y <code>Usuario</code> como entidades independientes. La generalización con <code>Persona</code> y sus clases derivadas se introduce recién en la sesión de herencia.</p>
 <h2 id="9-estructura-base-de-carpetas">9. Estructura base de carpetas<a class="headerlink" href="#9-estructura-base-de-carpetas" title="Permanent link">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>sistema-ventas-poo/
 ├── pom.xml
