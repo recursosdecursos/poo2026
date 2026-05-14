@@ -18,14 +18,15 @@ Identificar cuándo usar herencia y polimorfismo para reutilizar comportamiento 
 
 ## Práctica guiada
 
-- Diseñar una abstracción útil, por ejemplo tipos de comprobante o tipos de usuario.
+- Introducir una clase base `Persona` cuando el dominio ya justifique atributos y comportamientos compartidos.
+- Derivar clases como `Cliente`, `Proveedor`, `Usuario` o `Trabajador` según el caso trabajado en sesiones anteriores.
 - Implementar un comportamiento compartido y especializaciones.
 - Probar llamadas polimórficas.
 
 ## Reto de sesión
 
-Comparar una solución con herencia frente a otra con composición y justificar la decisión tomada.
+Comparar una solución con herencia frente a otra con composición y justificar la decisión tomada a partir del modelo construido en sesiones previas.
 
 ## Entregable mínimo
 
-Ejemplo funcional de polimorfismo integrado al proyecto, con una decisión de diseño argumentada.
+Jerarquía pequeña y justificada, por ejemplo `Persona` con clases derivadas del dominio, integrada al proyecto con una decisión de diseño argumentada.

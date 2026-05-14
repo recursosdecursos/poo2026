@@ -107,7 +107,9 @@ La evaluación es continua y basada en evidencias de diseño e implementación.
 5. JDBC para acceso a datos.
 6. SQLite como base de datos local.
 
-## 8. Modelo de referencia del proyecto
+## 8. Modelo de referencia del proyecto integrador final
+
+El siguiente diagrama no corresponde a la sesión 1. Se presenta como referencia del producto final del curso, una vez que el estudiante haya avanzado por modelado básico, encapsulamiento, colecciones, herencia, persistencia e interfaz gráfica.
 
 ```mermaid
 classDiagram
@@ -133,6 +135,8 @@ classDiagram
 	Venta "1" *-- "*" DetalleVenta
 	DetalleVenta "*" --> "1" Producto
 ```
+
+Durante las primeras sesiones, el modelado debe comenzar con clases simples y cercanas, por ejemplo `Producto` con `Categoria`, o bien `Cliente`, `Proveedor` y `Usuario` como entidades independientes. La generalización con `Persona` y sus clases derivadas se introduce recién en la sesión de herencia.
 
 ## 9. Estructura base de carpetas
 

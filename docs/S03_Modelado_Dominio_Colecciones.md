@@ -14,18 +14,18 @@ Representar relaciones entre objetos usando asociaciones, composición y colecci
 - Asociación y composición.
 - Colecciones de objetos.
 - Navegación entre objetos del dominio.
-- Cálculo derivado, por ejemplo subtotal y total.
+- Relaciones simples de uno a muchos antes de pasar a estructuras más complejas.
 
 ## Práctica guiada
 
-- Asociar `DetalleVenta` con `Producto`.
-- Componer `Venta` con una lista de detalles.
-- Calcular subtotales y total general.
+- Asociar `Categoria` con varios `Producto`, o `Cliente` con varias direcciones, contactos o registros simples según el caso elegido.
+- Usar `ArrayList` para representar una relación uno a muchos.
+- Recorrer la colección y mostrar resultados derivados simples.
 
 ## Reto de sesión
 
-Permitir agregar y quitar detalles de una venta manteniendo coherencia en el total.
+Permitir agregar, listar y quitar elementos de una colección manteniendo coherencia en el estado del objeto principal.
 
 ## Entregable mínimo
 
-Modelo de dominio funcional con relaciones entre objetos y operaciones básicas sobre colecciones.
+Modelo de dominio funcional con relaciones simples entre objetos y operaciones básicas sobre colecciones.
